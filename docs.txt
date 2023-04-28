@@ -1,3 +1,6 @@
-model : https://tamalsen.dev/
+models : 
+- https://tamalsen.dev/
+- https://www.rammaheshwari.com/
 
-documentation : https://nextjs.org/docs/basic-features/pages
+documentation : 
+- https://nextjs.org/docs/basic-features/pages
