@@ -1,11 +1,24 @@
 import React from 'react';
-import 'src/styles/header.css';
+
+
 const Header = () => (
-  <div className="header">
-    <div>
-        <img width={250} height={250} src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Tesla_logo.png" alt="Tesla" />
-        <p>Augustin Debureaux</p>
-    </div>
+  <div className="container  mx-auto">
+      <div className="">
+          <img className="rounded-full" width={75} src="cvpic.png" alt="picture" />
+          <span className="object-none object-center bg-yellow-300 w-24 h-24">Augustin Debureaux</span>
+      </div>
+      <div className="flex-auto">
+        <button className="rounded-full">Home</button>
+      </div>
+      <div className="flex-auto">
+        <button className="rounded-full">About</button>
+      </div>
+      <div className="flex-auto">
+        <button className="rounded-full">Project</button>
+      </div>
+      <div className="flex-auto">
+        <button className="rounded-full">Contact</button>
+      </div>
   </div>
 )
 export default Header;
