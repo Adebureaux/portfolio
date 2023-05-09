@@ -1,13 +1,15 @@
 import React from 'react';
-
+import Image from 'next/image';
 
 const Header = () => (
-  <div className="container  mx-auto">
-      <div className="">
-          <img className="rounded-full" width={75} src="cvpic.png" alt="picture" />
-          <span className="object-none object-center bg-yellow-300 w-24 h-24">Augustin Debureaux</span>
+  <div className="container">
+    <div className="">
+      <div className="flex">
+          <Image className="rounded-full" width={75} height={75} src="/images/profile.png" alt="picture" />
+          <span className="my-auto">Augustin Debureaux</span>
       </div>
-      <div className="flex-auto">
+
+      {/* <div className="flex-auto">
         <button className="rounded-full">Home</button>
       </div>
       <div className="flex-auto">
@@ -18,7 +20,8 @@ const Header = () => (
       </div>
       <div className="flex-auto">
         <button className="rounded-full">Contact</button>
-      </div>
+      </div> */}
+    </div>
   </div>
 )
 export default Header;
