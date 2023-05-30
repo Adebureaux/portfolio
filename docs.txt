@@ -4,3 +4,4 @@ models :
 
 documentation : 
 - https://nextjs.org/docs/basic-features/pages
+- https://www.youtube.com/watch?v=B2KVJYMzHOo : Header
